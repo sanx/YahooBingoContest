@@ -1,3 +1,7 @@
+/**
+ * @author Gerardo Moad <germoad@yahoo.com>
+ * Copyright (c) Yahoo Inc.
+ */
 var libsocket = require('socket.io-client'),
     util = require('util');
 

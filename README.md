@@ -12,4 +12,7 @@ Mode of operation
 ... you'll see status messages on your console describing
 your Bingo progress.
 
+Author
+------
 
+Gerardo Moad
