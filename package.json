@@ -1,0 +1,21 @@
+{
+    "name": "yahoobingo",
+    "description": "Yahoo Bingo contestant",
+    "version": "0.0.1",
+    "author": {
+        "name": "Gerardo Moad",
+        "email": "germoad@yahoo-inc.com"
+    },
+    "dependencies": {
+        "socket.io-client": "0.9.16"
+    },
+    "devDependencies": {
+        "nodemon": "0.7.x"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "devmode": "nodemon --ext js,json,yaml,css,html server.js",
+        "test": "mojito test",
+        "lint": "mojito jslint --print"
+    }
+}
