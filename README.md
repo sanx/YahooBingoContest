@@ -6,6 +6,7 @@ Mode of operation
 
     $ git clone git@github.com:sanx/YahooBingoContest.git
     $ cd YahooBingoContest
+    $ npm install
     $ ./app.sh
 
 ... you'll see status messages on your console describing
