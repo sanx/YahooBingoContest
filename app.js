@@ -34,6 +34,11 @@ var markCard = function (number, card) {
     });
 };
 
+/**
+ * Check if we have a winning card.
+ * @param {Object} card A Bingo card as emitted by the server.
+ * @return {boolean} true if we passed a winning card.
+ */
 var checkWin = function (card) {
     var width = 5,
         height = 5;
@@ -91,6 +96,11 @@ var checkWin = function (card) {
     return false
 };
 
+/**
+ * Pretty-print (albeit not that pretty) a Bingo card
+ * @param {Object} card A Bingo card like the one we got from the server.
+ * @return {Nothing} this function just outputs to the console.
+ */
 var prettyPrintCard = function (card) {
     var out = "{ ";
     for (letter in card.slots) {
